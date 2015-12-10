@@ -1,0 +1,16 @@
+-y
+-i
+%s
+-filter_complex
+[0:v] scale=480x640
+-b
+512k
+-preset
+ultrafast
+-crf
+28
+-threads
+0
+-c:v
+libx264
+%s

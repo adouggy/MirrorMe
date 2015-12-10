@@ -1,0 +1,14 @@
+-y
+-i
+%s
+-itsoffset
+14
+-i
+%s
+-filter_complex
+overlay
+-preset
+ultrafast
+-c:v
+libx264
+%s

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_cut"
+        android:title="cut"/>
+    <item
+        android:id="@+id/menu_cut_no_encode"
+        android:title="cut_no_encode"/>
+    <item
+        android:id="@+id/menu_concat"
+        android:title="concat"/>
+    <item
+        android:id="@+id/menu_sideBySide"
+        android:title="side_by_side"/>
+    <item
+        android:id="@+id/menu_scale"
+        android:title="scale"/>
+    <item
+        android:id="@+id/menu_scale_ks"
+        android:title="scale_ks"/>
+</menu>
